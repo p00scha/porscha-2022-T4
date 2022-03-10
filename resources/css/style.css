@@ -23,7 +23,10 @@ body{
 
 
 /* -------------------- HEADER */
+h1{
+        background-color: white;
 
+}
 /* -------------------- NAVIGATION */
 
 /* -------------------- FOOTER */
