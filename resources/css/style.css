@@ -7,13 +7,22 @@
 header{
     color: #FFF4E2;
     font-family:  'Andalé Mono','Courier New', Courier, monospace;
-    margin-left: 100px;
+    font-size: 72px;
+    text-align: left;
+}
+
+*  {
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%
 }
 
 body{
     color: #FFF4E2;
-     background-color: #100f0d;
-     font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #100f0d;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 /* -------------------- HEADINGS AND TYPE */
@@ -28,3 +37,20 @@ body{
 
 /* -------------------- MODULES */
 
+/*  WEEK 6 TUTORIAL - main 2 col things */
+
+/* .content-item {
+    display: grid;
+}
+
+@media screen and (min-width: 600px) {
+
+        .content-item {
+            grid-template-columns : 1fr 1fr;
+        }
+
+        .text-module {
+            padding: 3%;
+        }
+
+} */
