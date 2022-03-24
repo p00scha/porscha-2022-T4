@@ -6,10 +6,14 @@
 /* -------------------- GLOBAL DEFAULTS */
 header{
     color: #FFF4E2;
-    font-family:  'Andalé Mono','Courier New', Courier, monospace;
+    font-family:  'Red Hat Mono', monospace;
     font-size: 72px;
     text-align: left;
+    margin-left: 100px;
+    line-height: 1;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
 
 *  {
     box-sizing: border-box;
@@ -23,9 +27,19 @@ body{
     color: #FFF4E2;
     background-color: #100f0d;
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-size: 20px;
 }
 
 /* -------------------- HEADINGS AND TYPE */
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
 
 /* -------------------- LAYOUTS */
 
@@ -39,18 +53,15 @@ body{
 
 /*  WEEK 6 TUTORIAL - main 2 col things */
 
-/* .content-item {
+ .content-item {
     display: grid;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
 
         .content-item {
             grid-template-columns : 1fr 1fr;
         }
 
-        .text-module {
-            padding: 3%;
-        }
 
-} */
+} 
