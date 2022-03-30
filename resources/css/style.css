@@ -1,48 +1,55 @@
 @import url(normalize.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quattrocento&display=swap');
 
 /* -------------------- VARIABLES */
 
 /* -------------------- GLOBAL DEFAULTS */
-header{
-    color: #FFF4E2;
-    font-family:  'Red Hat Mono', monospace;
-    font-size: 72px;
-    text-align: left;
-    margin-left: 100px;
-    line-height: 1;
-    max-width: 100%
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
 
 *  {
     box-sizing: border-box;
 }
 
+
+header{
+    color: #100f0d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    text-align: left;
+    line-height: 1;
+    max-width: 100%;
+}
+
 img{
-    max-width: 100%
+    max-width: 100%;
 }
 
 body{
-    color: #FFF4E2;
-    background-color: #100f0d;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #100f0d;
+    background-color: #FFF4E2;
+    font-family: 'Quattrocento', serif;
     line-height: 2;
     font-size: 20px;
 }
 
 /* -------------------- HEADINGS AND TYPE */
 h1{
-    color: #FFF4E2;
-    font-family:  'Red Hat Mono', monospace;
+    color: #100f0d;
+    font-family: 'Poppins', sans-serif;
     font-size: 96px;
     text-align: left;
     margin-left: 100px;
     line-height: 1;
+    max-width: 100%;
 }
 h2 {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
 }
 
 p {
