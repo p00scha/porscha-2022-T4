@@ -71,6 +71,29 @@ p {
     padding-right: 20%;
 }
 
+ul {
+    text-align: left;
+    margin-left: 10%;
+    padding-left: 5%;
+    padding-right: auto;
+}
+
+li {
+    text-align: left;
+    margin-left: 10%;
+    padding-left: 2%;
+    padding-right: auto;
+}
+
+ol {
+    text-align: left;
+    padding-right: auto;
+}
+
+cite {
+    text-align: center;
+}
+
 /* -------------------- LAYOUTS */
 
 .layoutwide {
