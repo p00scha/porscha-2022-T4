@@ -114,12 +114,31 @@ cite {
 
 .layoutwide {
     display: grid;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    align-items: end;;
+}
+
+@media screen and (min-width: 800px) {
+
+        .layoutwide {
+            
+        }
+
+
+} 
+
+.photo-gallery {
+    display: grid;
 }
 
 @media screen and (min-width: 500px) {
 
-        .layoutwide {
-            grid-template-columns : 1fr 1fr 1fr;
+        .photo-gallery {
+            grid-template-columns : 1fr 1fr;
             max-width: 1000px;
             margin-left: auto;
             margin-right: auto;
@@ -127,7 +146,6 @@ cite {
 
 
 } 
-
 .contact-buttons {
     padding-top:20%;
     padding-left:100px;
