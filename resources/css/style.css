@@ -122,6 +122,12 @@ cite {
 
 /* -------------------- LAYOUTS */
 
+.content-layout {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .layoutwide {
     display: grid;
     grid-template-columns : 1fr 1fr 1fr;
@@ -178,6 +184,53 @@ cite {
 /* -------------------- HEADER */
 
 /* -------------------- NAVIGATION */
+
+.nav-prompt{
+
+}
+
+@media screen and (min-width 800px){
+    .nav-prompt{
+        display: none;
+    }
+}
+
+
+.main-nav{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.main-nav li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.main-nav a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: 1px solid black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+@media screen and (min-width: 800px){
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.main-nav a:hover{
+    background-color: transparent;
+    color: block;
+}
+
+.main-nav a 
 
 /* -------------------- FOOTER */
 
