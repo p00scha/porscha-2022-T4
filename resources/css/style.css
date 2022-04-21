@@ -153,8 +153,11 @@ cite {
 
 
 } 
-.expand-buttons {
+.content-layout {
     max-width: 100%;
+    padding-bottom: 25%;
+    padding-right: 10%;
+    padding-left: 50%;
 }
 @media screen and (min-width: 500px) {
 	.expand-buttons  {
