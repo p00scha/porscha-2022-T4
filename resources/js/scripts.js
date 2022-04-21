@@ -7,7 +7,7 @@ function openNav (){
     let navigation =document.querySelector(".main-nav")
 
     toggler.onclick = function(){
-        navigation.classList.toggle('open')
+        navigations.classList.toggle('open')
     }
 
 }
