@@ -41,19 +41,29 @@ header {
 
     position: relative;
 }
+@media screen and (min-width: 600px) {
+	.main-heading  {
+	font-size: 48px;
+  
+	}
+}
+
+.main-heading h1 {
+    margin: 0;
+}
 
 .expand-button {
     position: absolute;
     max-width: 150px;
-    top: 85px;
-    bottom: 30px;
-    right: 70px;
+    top: 50px;
+    bottom: 5px;
+    right: 10px;
 }
-
 @media screen and (min-width: 600px) {
-	.main-heading  {
-	font-size: 56px;
-  
+	.expand-button  {
+	top: 10px;
+    bottom: 5px;
+    right: 10px;
 	}
 }
 
@@ -169,13 +179,13 @@ cite {
 
 .kitty-logo{
     max-width: 100%; 
-    padding-bottom: 18%;
+    /* padding-bottom: 18%;
     padding-right: 50%;
-    padding-left: 10%;
+    padding-left: 10%; */
 }
 @media screen and (min-width: 500px) {
 	.kitty-logo  {
-	padding: 10%;
+	/* padding-top: 50%; */
 
 	}
 }
@@ -202,7 +212,6 @@ cite {
     list-style: none;
     padding-left: 0;
     margin-left: 0;
-
     display: none;
 }
 
