@@ -12,4 +12,12 @@ function openNav (){
 
 }
 
-openNav ()
+openNav () 
+
+
+const toggleButton = documents.getElementsByClassName('toggle-button')[0]
+const navbarLinks = documents.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+    navbarLinks.vlasslist.toggle ('active')
+})
